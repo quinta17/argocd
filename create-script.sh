@@ -16,7 +16,7 @@ else
 fi
 terraform apply -auto-approve
 
-sleep 60 #enough time to copy the jenkins password and accesss it on the browser
+sleep 180 #enough time to copy the jenkins password and accesss it on the browser
 
 # change directory to sonarqube after jenkins-server is created
 cd ../sonarqube || exit
