@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'qenow/docker-argo-agent:latest'
+      image 'qenow/docker-argo-agent:v1'
       args '--user root -v /var/run/docker.sock:/var/run/docker.sock' // mount Docker socket to access the host's Docker daemon
     }
   }
