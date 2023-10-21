@@ -1,0 +1,12 @@
+[0m[1mdata.aws_route53_zone.selected: Reading...[0m[0m
+[0m[1mdata.aws_ami.Ubuntu: Reading...[0m[0m
+[0m[1maws_security_group.sonarsg: Refreshing state... [id=sg-0a76521b21fde2049][0m
+[0m[1mdata.aws_ami.Ubuntu: Read complete after 1s [id=ami-0ff834984748eaef2][0m
+[0m[1maws_instance.Sonarqube: Refreshing state... [id=i-0bc85e44285f685e8][0m
+[0m[1mdata.aws_route53_zone.selected: Read complete after 1s [id=Z03716781SIE57MX1M3C5][0m
+[0m[1maws_route53_record.domainName: Refreshing state... [id=Z03716781SIE57MX1M3C5_sonar_A][0m
+
+[0m[1m[32mNo changes.[0m[1m Your infrastructure matches the configuration.[0m
+
+[0mTerraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.
