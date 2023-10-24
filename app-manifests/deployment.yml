@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: qenow/docker-advancespringapp:7
+        image: qenow/docker-advancespringapp:replaceImageTag
         ports:
         - containerPort: 8080
